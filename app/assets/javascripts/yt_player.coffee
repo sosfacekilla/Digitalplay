@@ -28,6 +28,7 @@ jQuery ->
           wmode: 'opaque'
           autoplay: 1
           modestbranding: 1
+          rel: 0
         }
         events: {
           'onReady': -> window.ytPlayerLoaded = true
@@ -36,7 +37,7 @@ jQuery ->
       })
     else
       window.ytplayer.loadVideoById(video)
-      window.ytplayer.pauseVideo()
+      window.ytplayer.playVideo()
     return
 
   google.setOnLoadCallback _run
