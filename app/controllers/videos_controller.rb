@@ -18,6 +18,10 @@ class VideosController < ApplicationController
   	end
 	end
 
+  def show
+    @videos = Video.order('created_at DESC')
+  end
+
   def destroy
     @video = Video.find(params[:id])
     @video.destroy
