@@ -1,5 +1,7 @@
 class VideosController < ApplicationController
 
+  before_action :authenticate_user!, :except => [:show]
+
 	def index
   	@videos = Video.order('created_at DESC')
 	end
