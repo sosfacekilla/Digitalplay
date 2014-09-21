@@ -29,7 +29,10 @@ jQuery ->
           autoplay: 1
           modestbranding: 1
           rel: 0
+          highDef: 0
+          autohide: 1
         }
+
         events: {
           'onReady': -> window.ytPlayerLoaded = true
           'onError': (errorCode) -> alert("We are sorry, but the following error occured: " + errorCode)
