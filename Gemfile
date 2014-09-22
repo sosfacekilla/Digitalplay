@@ -31,6 +31,8 @@ gem 'devise'
 gem "figaro"
 gem 'bootstrap-sass', '~> 3.1.1.0'
 gem 'youtube_it', '~> 2.4.0'
+
+gem 'rails_12factor'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
