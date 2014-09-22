@@ -5,6 +5,9 @@ In the Terminal
 run - bundle install
 - rails s
 
-The you will have a youtube streaming videotelevision
-curated by the user
+Then you will have a youtube streaming videotelevision
+curated by the user on the show page
+
+uses gem figaro to hide youtube api key
++ gem devise so user can select content
 
