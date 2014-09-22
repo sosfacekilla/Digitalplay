@@ -2,7 +2,8 @@ With the use of the youtube API
 + jquery for the video player
 
 In the Terminal
-run - bundle install
+run 
+- bundle install
 - rails s
 
 Then you will have a youtube streaming videotelevision
