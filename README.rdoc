@@ -12,3 +12,5 @@ curated by the user on the show page
 uses gem figaro to hide youtube api key
 + gem devise so user can select content
 
+check the show page at: http://digitalplay.herokuapp.com/videos/show
+
