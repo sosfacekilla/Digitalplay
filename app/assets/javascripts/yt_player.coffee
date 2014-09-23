@@ -38,7 +38,7 @@ jQuery ->
        
       events: {
           'onReady': -> window.ytPlayerLoaded = true
-          'onStateChange': (statrChange) -> (video == YT.PlayerState.PLAYING && !done)(window.ytplayer.playVideo())
+          'onStateChange': (stateChange) -> (video == YT.PlayerState.PLAYING && !done)(window.ytplayer.playVideo())
           'onError': (errorCode) -> alert("We are sorry, but the following error occured: " + errorCode)
         }
       })
