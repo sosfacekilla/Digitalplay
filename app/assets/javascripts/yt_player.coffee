@@ -31,6 +31,7 @@ jQuery ->
           rel: 0
           highDef: 0
           autohide: 1
+          iv_load_policy: 3,
 
         }
 
