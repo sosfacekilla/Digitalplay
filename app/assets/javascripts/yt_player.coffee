@@ -31,10 +31,14 @@ jQuery ->
           rel: 0
           highDef: 0
           autohide: 1
+
         }
 
-        events: {
+
+       
+      events: {
           'onReady': -> window.ytPlayerLoaded = true
+          'onStateChange': (statrChange) -> (video == YT.PlayerState.PLAYING && !done)(window.ytplayer.playVideo())
           'onError': (errorCode) -> alert("We are sorry, but the following error occured: " + errorCode)
         }
       })
@@ -46,3 +50,7 @@ jQuery ->
   google.setOnLoadCallback _run
 
   return
+
+
+
+   

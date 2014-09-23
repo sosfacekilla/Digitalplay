@@ -14,3 +14,9 @@ uses gem figaro to hide youtube api key
 
 check the show page at: http://digitalplay.herokuapp.com/videos/show
 
+(work in progress
+- need to loop playlist on infinite loop
+- have playlist play on current video)
+- make mobile friendly)
+
+
